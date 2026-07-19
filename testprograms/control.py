@@ -46,18 +46,18 @@ def main(stdscr):
             angles[5] = 135
             changed = True
 
-        if key in (ord('r'), ord('R')):
+        if key in (ord('k'), ord('K')):
             angles[3] += STEP
             changed= True
         
-        if key in (ord('f'), ord('F')):
+        if key in (ord('i'), ord('I')):
             angles[3] -= STEP
             changed = True
-        if key in (ord('t'), ord('T')):
+        if key in (ord('j'), ord('J')):
             angles[4] += STEP
             changed= True
         
-        if key in (ord('g'), ord('G')):
+        if key in (ord('l'), ord('L')):
             angles[4] -= STEP
             changed = True
 
